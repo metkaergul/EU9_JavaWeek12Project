@@ -20,4 +20,15 @@ public class Employee {
         this.ID = ID;
         this.salary = salary;
     }
+
+
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", ID=" + ID +
+                ", salary=" + salary +
+                ",company Name=" + companyName+
+                '}';
+    }
 }
